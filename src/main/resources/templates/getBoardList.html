@@ -8,13 +8,13 @@
 <body th:align="center">
 <h1>게시글 목록</h1>
 <hr>
-<table th:align="center" border="1" th:cellpadding="0" th:cellspacing="0" th:width="1000">
+<table th:align="center" border="1" th:cellpadding="0" th:cellspacing="0" th:width="700">
 <tr>
-	<th bgcolor="orange" width="100">번호</th>
-	<th bgcolor="orange" width="500">제목</th>
-	<th bgcolor="orange" width="150">작성자</th>
-	<th bgcolor="orange" width="150">등록일</th>
-	<th bgcolor="orange" width="100">조회수</th>
+	<th bgcolor="orange" width="50">번호</th>
+	<th bgcolor="orange" width="300">제목</th>
+	<th bgcolor="orange" width="100">작성자</th>
+	<th bgcolor="orange" width="100">등록일</th>
+	<th bgcolor="orange" width="50">조회수</th>
 </tr>
 
 <tr th:each="board, state : ${boardList}">

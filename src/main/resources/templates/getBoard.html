@@ -1,5 +1,4 @@
 <html xmlns:th="http://www.thymeleaf.org">
-
 <head>
 	<title>게시 글 상세</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -12,7 +11,7 @@
 <table th:align="center" border="1" th:cellpadding="0" th:cellspacing="0">
 	<tr>
 		<td bgcolor="orange" th:text="제목" width="120"></td>
-		<td><input name="boardSubject" type="text" th:value="${board.boardSubject}" size=80></td>
+		<td><input name="boardSubject" type="text" th:value="${board.boardSubject}" size=60></td>
 	</tr>
 	<tr>
 		<td bgcolor="orange" th:text="작성자"></td>
@@ -20,7 +19,7 @@
 	</tr>
 	<tr>
 		<td bgcolor="orange" th:text="내용">
-		<td><textarea name="boardContent" th:text="${board.boardContent}" cols="80" rows="10"></textarea></td>
+		<td><textarea name="boardContent" th:text="${board.boardContent}" cols="60" rows="10"></textarea></td>
 	</tr>
 	<tr>
 		<td bgcolor="orange" th:text="등록일"></td>
@@ -31,9 +30,7 @@
 		<td th:text="${board.boardCnt}"></td>
 	</tr>
 	<tr>
-		<td colspan="2" align="center">
-			<input type="submit" value="게시글 수정">
-		</td>
+		<td colspan="2" align="center"><input type="submit" value="게시글 수정"></td>
 	</tr>
 </table>
 </form>
