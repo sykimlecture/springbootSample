@@ -3,7 +3,7 @@
 ## spring boot project 생성
 Spring Starter Project 선택한다.
 
-Project명 작성
+Project명 작성(생성)
  - Service URL : https://start.spring.io
  - Name : 개인이름이 들어가는 이니셜(예:midterm_sykim)
  - Group : kr.ac.koreait
